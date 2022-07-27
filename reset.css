@@ -1,0 +1,47 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+    margin: 0;
+    padding:0;
+}
+/* 全局样式清零 */
+body{
+    font: 12px HELVETICA,"微软雅黑";
+    background-color: #f0f2f5;
+}
+/* 引入字体 */
+input,textarea,select{
+    outline: none;
+}
+/* 这些都有外边框 */
+textarea{
+    resize: none;
+}
+/* 不允许拉大文本域 */
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* a标签统一不要装饰，并设置字的颜色 */
+ul,li{
+    list-style:none;
+}
+/* 去掉两者样式 */
+img{
+    display: block;
+}
+/* 给图片block？担心无法撑开？ */
+
+em,i{
+    font-style: normal;
+}
+
+b,strong{
+    font-weight: normal;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 清除浮动塌陷 */

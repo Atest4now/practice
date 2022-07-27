@@ -1,0 +1,56 @@
+.content{
+    margin: 0 auto;
+    width: 1180px;
+}
+.title{
+    width: 1180px;
+height: 34px;
+margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title>span{
+    
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+    border-left: 5px solid  #80c4ae;;
+
+}
+.title p{   
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    
+}
+.content ul{
+
+margin: 0 auto;
+/* 无法居中 */
+}
+.content ul li{
+    float: left;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    }
+    .content ul li:nth-child(4n){
+       
+        margin-right: 0px;
+        }
+        /* .content ul li{
+            width: 280px;
+            height: 225px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            float: left;
+            margin-right: 20px;
+        } */
+        /* 4的倍数的li  第4个  第8个 第12个 第16...*/
+        /* .course ul li:nth-child(4n){
+            margin-right: 0;
+        } */

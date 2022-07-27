@@ -1,0 +1,53 @@
+.banner{
+    margin: 0 auto;
+    width: 1180px;
+    position: relative;
+}
+.banner>span{
+    display: inline-block;
+    position: absolute;
+    bottom: 120px;
+    height: 80px;
+    width: 40px;
+}
+.banner .left{
+    background:url(../小U课程/images/arrow_l.png) no-repeat;
+    left: 36px;
+}
+
+.banner .right{
+    background:url(../小U课程/images/arrow_r.png) no-repeat;
+    right: 36px;
+}
+.banner p{
+    position: absolute;
+ 
+    height: 20px;
+    bottom: 20px;
+    left: 515px;
+}
+/* .banner p span{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #e3f3f0;
+    border-radius: 50%;
+    margin-right: 7px;
+    cursor: pointer;
+} */
+
+.banner p span:hover{
+    background-color: #e28a6c;
+} 
+
+.banner p span{
+    float: left;
+    border-radius: 50%;
+   background-color: aliceblue;
+    width: 10px;
+    height: 10px;
+    border:solid 1px  #333;
+    margin-right: 7px;
+  
+    
+}

@@ -1,0 +1,106 @@
+.head-wrapper{
+background-color: #fff;
+}
+.head{
+    margin: 0 auto;
+    width: 1130px;
+    height: 80px;
+}
+.head h1{
+    float: left;
+    /* 第二步 */
+    margin-top: 18px;
+    margin-right: 120px;
+}
+.head ul{
+    float: left;
+    height: 80px;
+ 
+}
+.head ul li{
+    float: left;
+      /* 第二步 */
+      /* margin-right: 30px; 人家用的是a的padding*/
+    height: 80px;
+    line-height: 80px;
+  
+}
+/* 对照修改，漏了改a，这里给a设置block是为了调整高度这样hover的时候可以让色块有合适高度 */
+.head li a{
+    display: block;
+    height: 80px;
+    padding:0 20px; 
+    font-size: 16px;
+    color: #333;
+}
+
+.head li a:hover{
+    color: #fff;
+    background-color: #80c4ae;
+    
+}
+.head form{
+    float: left;
+    /* 第二步 */
+    width: 278px;
+    height: 34px;
+
+/* 对照修改 */
+border:1px solid #80c4ae;
+margin-left: 96px;
+margin-top: 20px;
+border-radius: 3px;
+}
+.head form select{
+    text-align: center;
+    float: left;
+    width: 60px;
+    height: 34px;
+    border: none;
+    appearance: none;
+    /* 这个把自带样式去掉了 */
+    background: url("../小U课程/images/arrow_d.png") no-repeat 46px 15px;
+    /* 对照修改，background简单写法，可以定位 */
+    border-right: 1px solid #80c4ae;
+}
+
+/* .head form .input{
+    width: 180px;
+    height: 34px;
+    border: none;
+    text-align: center;
+   
+} */
+/*改变placeholder的字体颜色*/
+.head form input::placeholder{
+    color: #a9a9a9;
+}
+.head form input{
+    float: left; 
+    width: 180px;
+    height: 34px;
+    border: none;
+    text-align: center;
+
+}
+/* 我没有考虑按钮的border所以出了问题还有float，不加float为啥input会往下掉？？？？ */
+.head form .btn{
+    width: 30px;
+    height: 34px;
+    border: none;
+    background: none;
+    color: #80c4ae;
+    font-size: 20px;
+}
+.head p{
+    float: right;
+    /* 第二步 */
+    font-size: 16px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header_box p a{
+    color: #535353;
+    font-size: 14px;
+}
